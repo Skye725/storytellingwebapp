@@ -4,11 +4,11 @@ export const API_KEY = `${process.env.NEXT_PUBLIC_APP_KEY}`
 export const API_URL = `${process.env.NEXT_PUBLIC_API_URL}`
 export const IS_WORKFLOW = `${process.env.NEXT_PUBLIC_APP_TYPE_WORKFLOW}` === 'true'
 export const APP_INFO: AppInfo = {
-  title: 'Text Generator APP',
-  description: 'App description',
+  title: 'Share your story',
+  description: 'Used to evaluate the quality of user-shared stories, assessing the strengths and weaknesses of the stories based on specific criteria and providing suggestions for revisions',
   copyright: '',
   privacy_policy: '',
-  default_language: 'en-US',
+  default_language: 'zh-Hans',
 }
 
 export const API_PREFIX = '/api'
