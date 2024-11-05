@@ -8,7 +8,7 @@ export const APP_INFO: AppInfo = {
   description: 'Used to evaluate the quality of user-shared stories, assessing the strengths and weaknesses of the stories based on specific criteria and providing suggestions for revisions',
   copyright: '',
   privacy_policy: '',
-  default_language: 'zh-Hans',
+  default_language: 'en',
 }
 
 export const API_PREFIX = '/api'
